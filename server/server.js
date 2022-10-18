@@ -9,7 +9,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-require("dotenv").config()
+require('dotenv').config()
 const port = process.env.PORT
 const sequelize = new Sequelize(process.env.CONNECTION_STRING, {
     dialect: 'postgres',
