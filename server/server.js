@@ -24,6 +24,6 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
 
-const profileRoutes = require('routes')
+const profileRoutes=require('./routers/profile')
 
 app.use('/',profileRoutes)
