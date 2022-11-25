@@ -24,3 +24,6 @@ places - npm run in client and npm start in server. Am I doing something
 incorrectly, or is there a simpler way to do this?
 
 npm audit fix --force returns many different high risk/critical errors.
+
+Database vs. Server in terms of final project. In some parts of the 
+foundations course these were interchangable OR they were used

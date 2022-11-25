@@ -15,10 +15,19 @@ function App() {
     getData()
   }, [])
 
-
   return (
     <div className="App">
       <p>Our message is {message}</p>
+      <div>
+        <input
+          type="text"
+          id="message"
+          name="message"
+          //onChange={handleChange}
+          value={message}
+        />
+      <h2>Message: {message}</h2>
+      </div>
     </div>
   );
 }
