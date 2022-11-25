@@ -5,7 +5,7 @@ Database:
 [ ] Connects to server
 
 Server:
-[ ] Handles requests
+[X] Handles requests
 [ ] Sends responses
 
 Front end:
