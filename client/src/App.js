@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [message, setMessage] = useState("")
+  
   const getData = async () => {
     const res = await axios.get('/profile')
     setMessage(res.data.message)

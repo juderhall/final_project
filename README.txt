@@ -6,7 +6,7 @@ Database:
 
 Server:
 [X] Handles requests
-[ ] Sends responses
+[X] Sends responses
 
 Front end:
 [ ] Has 3-5 interactive features
@@ -16,3 +16,11 @@ Front end:
 [ ] Uses values from state to display information and/or make requests
 [ ] Uses props to pass data and/or methods
 [ ] Includes custom styling
+
+Notes to ask instructor: 
+
+npm commands needing to happen in two different
+places - npm run in client and npm start in server. Am I doing something
+incorrectly, or is there a simpler way to do this?
+
+npm audit fix --force returns many different high risk/critical errors.

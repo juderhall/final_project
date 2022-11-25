@@ -12,7 +12,7 @@ const sequelize = new Sequelize(process.env.CONNECTION_STRING, {
             rejectUnathorized: false
         }
     }
-})
+}) 
 
 module.exports = {
 
