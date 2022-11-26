@@ -10,6 +10,11 @@ function App() {
     const res = await axios.get('/profile')
     setMessage(res.data.message)
   }
+  
+  const handleChange = event => {
+    setMessage(event.target.value);
+    console.log('value is:', event.target.value);
+  };
 
   useEffect(() => {
     getData()
@@ -23,7 +28,7 @@ function App() {
           type="text"
           id="message"
           name="message"
-          //onChange={handleChange}
+          onChange={handleChange}
           value={message}
         />
       <h2>Message: {message}</h2>
