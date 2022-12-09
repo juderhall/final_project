@@ -24,8 +24,10 @@ module.exports = {
 
     // newProfile function to get profile data
 
-    getProfile: (req,res) => {
-        res.json({message: "get profile data"});
-    },   
+    // getProfile: (req,res) => {
+    //     res.json({message: "get profile data"});
+    // },   
 
 }
+
+// making a change
